@@ -1,11 +1,13 @@
-var nombre = 'Sacha', apellido = 'Lifszyc'
+let nombre = 'Sacha', apellido = 'Lifszyc';
 
-var nombreEnMayusculas = nombre.toUpperCase()
-var apellidoEnMinusculas = apellido.toLowerCase()
+let nombreEnMayusculas = nombre.toUpperCase();
+let apellidoEnMinusculas = apellido.toLowerCase();
 
-var primeraLetraDelNombre = nombre.charAt(0)
-var cantidadDeLetrasDelNombre = nombre.length
+let primeraLetraDelNombre = nombre.charAt(0);
+let cantidadDeLetrasDelNombre = nombre.length;
 
-var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
+let nombreCompleto = `${nombre} ${apellido.toUpperCase()}`;
 
-var str = nombre.substr(1, 2)
+let str = nombre.substr(1, 2);
+
+let ultimaLetra = nombre.substr(-1);
