@@ -1,0 +1,19 @@
+{
+  "name": "fundamentosjscurso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "clase1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelMazur/FundamentosJSCurso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelMazur/FundamentosJSCurso/issues"
+  },
+  "homepage": "https://github.com/AngelMazur/FundamentosJSCurso#readme"
+}
