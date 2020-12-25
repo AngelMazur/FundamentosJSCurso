@@ -43,10 +43,19 @@ let paula = {
 let acum = 0;
 let personas = [sacha, alan, martin, dario, vicky, paula];
 
-function cantidadDeLibrosAcum(acum, val){
-    return acum += val.cantidadDeLibros;
-    console.log (acum);
-};
+for (let i=0; i < personas.length; i++ ){
+    acum = acum + personas[i].cantidadDeLibros;
+};//esta es la manera de contar la cantidad de libros con el ciclo for.
 
-let resultado = personas.reduce(cantidadDeLibrosAcum);
-console.log (resultado);
+function cantidadDeLibrosAcum(acum, val){
+    return acum + val.cantidadDeLibros;
+}; //esta función es valida pero se puede reducir
+
+let resultado = personas.reduce(cantidadDeLibrosAcum, acum);//necesita dos parámetros el método reduce: la función con la que va operar y una cantidad inicial
+
+//-------------código reducido-----------------
+const cantidadDeLibrosAcum = (acum, {cantidadDeLibros})=> acum + cantidadDeLibros;
+
+let resultado = personas.reduce(cantidadDeLibrosAcum, acum)
+
+console.log (`Cantidad del libros ${resultado}`);
