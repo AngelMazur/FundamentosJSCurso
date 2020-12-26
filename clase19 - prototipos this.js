@@ -1,4 +1,4 @@
-function persona(nombre, apellido, altura){
+function persona(nombre, apellido, altura){ // Este es el constructor
     this.nombre = nombre;
     this.apellido = apellido;
     this.altura = altura;
