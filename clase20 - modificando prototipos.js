@@ -17,4 +17,4 @@ persona.prototype.tamaño = function () {
 
 let angel = new persona ('Angel', 'Mazur', 1.70);
 let andres = new persona ('Andres', 'Saa', 1.65);
-let juanca = new persona ('Juan Carlos', 'Mora', 1.80)
+let juanca = new persona ('Juan Carlos', 'Mora', 1.80);
