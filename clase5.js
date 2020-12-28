@@ -6,9 +6,9 @@ function imprimirNombreMayusculas () {
 };
 imprimirNombreMayusculas();
 
-function imprimirNombreEnMayusculas1(n) {
+function imprimirNombreEnMinusculas(n) {
     n = n.toLowerCase()
     console.log(n)
 }
 
-imprimirNombreEnMayusculas1(nombre)
+imprimirNombreEnMinusculas(nombre)
