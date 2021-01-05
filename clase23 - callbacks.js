@@ -12,4 +12,4 @@ const onResponse = function (data) {
 $.get (persona, options, onResponse);
 //$.get acepta varios parámetros en este caso el primero es: la URL de la API completa y el segundo es indicarle a donde quiero que apunte y lo hacemos con ","
 
-//por último le pasamos una función anónima la cual he declarado como "onResponse" para pasar los parámetros de la API
+//por último le pasamos una función anónima la cual he declarado como "onResponse" para pasar los parámetros de la API esta es la función a la que llamaremos callback.
