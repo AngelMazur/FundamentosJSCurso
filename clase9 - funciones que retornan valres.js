@@ -11,7 +11,7 @@ let Melisa = {
     nombre: 'Melisa',
     edad: 2
 }
-function imprimirSiEsMayorDeEdad (persona){
+function imprimirSiEsMayorDeEdad (persona){//Perosna es un parámetro que creo yo
     if (persona.edad >= 18){
         console.log(`${persona.nombre} es mayor de edad`)
     }else{

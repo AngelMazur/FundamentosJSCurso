@@ -1,40 +1,39 @@
 const sacha = {
-    nombre: 'Sacha',
-    apellido: 'Lifszyc',
-    altura: 1.72
+  nombre: 'Sacha',
+  apellido: 'Lifszyc',
+  altura: 1.72,
 }
 
 const alan = {
-    nombre: 'Alan',
-    apellido: 'Perez',
-    altura: 1.86
+  nombre: 'Alan',
+  apellido: 'Perez',
+  altura: 1.86,
 }
 
 const martin = {
-    nombre: 'Martin',
-    apellido: 'Gomez',
-    altura: 1.85
+  nombre: 'Martin',
+  apellido: 'Gomez',
+  altura: 1.85,
 }
 
 const dario = {
-    nombre: 'Dario',
-    apellido: 'Juarez',
-    altura: 1.71
+  nombre: 'Dario',
+  apellido: 'Juarez',
+  altura: 1.71,
 }
 
 const vicky = {
-    nombre: 'Vicky',
-    apellido: 'Zapata',
-    altura: 1.56
+  nombre: 'Vicky',
+  apellido: 'Zapata',
+  altura: 1.56,
 }
 
 const paula = {
-    nombre: 'Paula',
-    apellido: 'Barros',
-    altura: 1.76
+  nombre: 'Paula',
+  apellido: 'Barros',
+  altura: 1.76,
 }
 //Creamos unos arrays que son una colección de datos o valores asiganos a una variable y las cuales podemos modificar.
-
 
 // Para indicar que algo es un array utilizamos el símbolo "[ ]"
 // var personas = []
@@ -60,9 +59,10 @@ const paula = {
 
 // Se debe tomar en cuenta que estamos utilizando objetos, no colecciones, pero podemos acceder a los atributos.
 
-const personas = [sacha, alan, martin, dario, vicky, paula];
+const personas = [sacha, alan, martin, dario, vicky, paula]
 
-for (let i = 0; i < personas.length; i++){//length es una propiedad de los string que indica cuandos datos tiene la cadena
-    let persona = personas[i]; // i de indice del array
-    console.log(`${persona.nombre} mide ${persona.altura} metros`)
+for (let i = 0; i < personas.length; i++) {
+  //length es una propiedad de los string que indica cuandos datos tiene la cadena
+  let persona = personas[i] // i de indice del array
+  console.log(`${persona.nombre} mide ${persona.altura} metros`)
 }
